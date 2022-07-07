@@ -56,7 +56,7 @@ $sql=mysqli_query($conn, "SELECT * FROM enrollments");
 					  <td><?php  echo $fetch['gender'] ?> </td>
 					  <td><?php  echo $fetch['created_at'] ?> </td>
 					  <td>
-						<a href="edit-enrollments.php?id=<?php echo $fetch['no']?>" class="btn btn-primary btn-sm">
+						<a href="edit-enrollment.php?id=<?php echo $fetch['no'] ?>" class="btn btn-primary btn-sm">
 						   <i class="fa fa-edit"></i>
 						</a>
 						
