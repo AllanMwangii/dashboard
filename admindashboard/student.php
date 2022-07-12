@@ -3,7 +3,7 @@
 
 include('logics/dbconnection.php');
 
-$sql=mysqli_query($conn, "SELECT * FROM enrollments");
+$sql=mysqli_query($conn, "SELECT * FROM enrollment");
 
 
 
@@ -21,7 +21,9 @@ $sql=mysqli_query($conn, "SELECT * FROM enrollments");
 	 <!-- All our code. write here   -->
 	 <?php include('includes/navbar.php');?>
 	 
+	 <div class="sidebar">
 	 <?php include('includes/sidebar.php'); ?>
+	</div>
 
 	<div class="main-content">
 		<div class="container-fluid">
