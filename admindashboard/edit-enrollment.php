@@ -21,13 +21,13 @@
 <head>
    
     <title>Edit student details</title>
-    <?php  include('includes/header.php') ?>
+    <?php  require_once('includes/header.php') ?>
 </head>
 <body>
      <!-- All our code. write here   -->
-     <?php include('includes/navbar.php');?>
+     <?php require_once('includes/navbar.php');?>
 	 
-     <?php include('includes/sidebar.php'); ?>
+     <?php require_once('includes/sidebar.php'); ?>
  
      <div class="main-content">
          <div class="container-fluid">
@@ -36,10 +36,10 @@
                     <div class="card">
                         <div class="card-header bg-dark text-white ">
                             <div class=" ">
-                                <a href="student.php">
-            
-                                </a>
-                                <h4 class="text-center col-9 ">Edit student-<?php echo $fullname?></h4>
+                                <a href="student.php"></a>
+                                <button><a href="student.php" class="navlink active bg-dark text-white btn btn-secondary ">BACK</a></button>
+                                
+                   </span><h4 class="text-center col-9 ">Edit student-<?php echo $fullname?></h4>
                                 
                             </div>
                             <div class="text-center text-success"><?php echo $message?></div>
