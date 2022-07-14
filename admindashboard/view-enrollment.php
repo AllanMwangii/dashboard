@@ -30,7 +30,8 @@ while($fetchStudent=mysqli_fetch_array($sqlFetchEnrolledStudent))
      <div class="main-content">
          <div class="container-fluid">
             <div class="row">
-                <div class="card col-lg-12 ">
+             <div class="col-lg-6">
+             <div class="card">
                     <div class="card-header bg-dark text-white text-center"><h4 class="card-title">Personal Information</h4></div>
                         <div class="card-body">
                             <ul class="list-group">
@@ -40,10 +41,12 @@ while($fetchStudent=mysqli_fetch_array($sqlFetchEnrolledStudent))
                             </ul>
                         </div>
                 </div>
+             </div>
             </div>
             <div class="row">
-                <div class="card col-lg-12 ">
-                    <div class="card-header bg-dark text-white text-center"><h4 class="card-title">Other Information</h4></div>
+                <div class="col-lg-6">
+                <div class="card">
+                      <div class="card-header bg-dark text-white text-center"><h4 class="card-title">Other Information</h4></div>
                         <div class="card-body">
                             <ul class="list-group">
                                 <li class="list-group-item">Gender: <span class="float-right badge badge-primary"><?php echo $gender?></span></li>
@@ -51,6 +54,7 @@ while($fetchStudent=mysqli_fetch_array($sqlFetchEnrolledStudent))
                                 <li class="list-group-item">Course: <span class="float-right badge badge-danger"><?php echo $created_at?></span></li>
                             </ul>
                         </div>
+                </div>
                 </div>
             </div>
             </div>

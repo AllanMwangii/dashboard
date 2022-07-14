@@ -6,8 +6,8 @@ $database="zalego";
 
 $conn=mysqli_connect($server, $username, $password, $database);
 
-if($conn)
-{
-    die('No connection ' .mysqli_connectio_error());
-}
+//if($conn)
+//{
+  //  die('No connection ' .mysqli_connection_error());
+//}
 ?>

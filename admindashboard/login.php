@@ -1,7 +1,7 @@
 <?php
   
   //database connection
-  require_once('connection.php');
+  require_once('includes/connection.php');
   //setting
   if(isset($_POST['login']))
   {

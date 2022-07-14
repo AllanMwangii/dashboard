@@ -2,7 +2,7 @@
 
 
  <div class="header text-white">
-      <img src="zalego.png" alt="Zalego" height="50" width="50" class="rounded-circle">
+      <img src="images/download.jpg" alt="Zalego" height="50" width="50" class="rounded-circle">
   
   
        <span class="pull-right" style="padding:10px 30px;text-decoration:none">
