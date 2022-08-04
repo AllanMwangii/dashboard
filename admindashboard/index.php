@@ -4,8 +4,7 @@
  $countAllStudents=mysqli_num_rows($queryEnrollStudents);
 
  //count gender
- $queryEnrollfemale=mysqli_query($conn, "SELECT * FROM enrollment WHERE gender='Female'" );
- $countAllfemale=mysqli_num_rows($queryEnrollfemale);
+ $queryEnrollfemale=mysqli_query($conn, "SELECT * FROM enrollment WHERE gender='Female'" ); $countAllfemale=mysqli_num_rows($queryEnrollfemale);
 ?>
 
 <!DOCTYPE html>

@@ -37,7 +37,7 @@
                         <div class="card-header bg-dark text-white ">
                             <div class=" ">
                                 <a href="student.php"></a>
-                                <button><a href="student.php" class="navlink active bg-dark text-white btn btn-secondary ">BACK</a></button>
+                                <button><a href="student.php" class="navlink active bg-dark text-white btn btn-secondary fa fa-right-left">Back</a></button>
                                 
                    </span><h4 class="text-center col-9 ">Edit student-<?php echo $fullname?></h4>
                                 
